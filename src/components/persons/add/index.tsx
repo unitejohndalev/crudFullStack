@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Form } from "react-bootstrap";
 import { postPersons } from "../../../api/Api";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 
 type AddPersonProps = {
